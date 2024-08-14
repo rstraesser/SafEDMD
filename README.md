@@ -2,7 +2,12 @@
 `SafEDMD` stands for Stability- and certificate-oriented EDMD: a novel EDMD-based learning architecture which comes along with rigorous certificates, resulting in a reliable surrogate model generated in a data-driven fashion. Together with proportional error bounds, which vanish at the origin and are tailored to control tasks, it allows a certified controller design based on semi-definite programming.
 ## Installation
 Download the `Matlab` files and install [[Yalmip]](https://yalmip.github.io/) as well as [[Mosek]](https://www.mosek.com/).
-## References
+
+The provided code inspects two experiments:
+* Nonlinear inverted pendulum: run `main_invertedPendulum`
+* Nonlinear benchmark system: run `main_nonlinearInvariant`
+
+## Reference
 This repository contains an implementation of the ideas presented in the paper:
 
 Strässer, R., Schaller, M., Worthmann, K., Berberich, J., & Allgöwer, F. "SafEDMD: A certified learning architecture tailored to data-driven control of nonlinear dynamical systems", 2024, [[arxiv]](https://arxiv.org/abs/2402.03145)
